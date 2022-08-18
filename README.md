@@ -1,1 +1,1 @@
-# ttranng2601.github.io
+Check it out here: https://ttranng2601.github.io/porfolio/
