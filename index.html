@@ -1,68 +1,227 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Porfolio</title>
-	<!-- CSS only -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-	<!-- JavaScript Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<nav class="fixed-top">
-		<ul class="nav justify-content-end nav-pills">
-			<!-- <li class="name">Trang Tran</li> -->
-			<li class="nav-item">
-				<a class="nav-link active" href="index.html">Home</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="about.html">About Me</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="projects.html">Projects</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="contact.html">Contact</a>
-			</li>
-		</ul>
-	</nav>
-	<div class="grid-container">
+<!DOCTYPE HTML>
 
-		<div class="grid-item1 backInLeft">
-			<div class="box"></div>
-			<img src="img/me.jpg">
-		</div>
-		<div class="grid-item2 backInDown">
-			<div class="quote">
-				<div class= "quote-1">"Do What You</div>
-				<div class = "quote-2">Love</div>
-				<div class="quote-3">What You Do"</div>
+<html>
+	<head>
+		<title>Tran's Porfolio </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="logo" style="margin-top:10px;">
+							<svg xmlns="http://www.w3.org/2000/svg" width="70" height="60" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+								<path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+							</svg>
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Thi Thuy Trang Tran</h1>
+								<p> Computer Science Student <br>
+									Solving Problems with Code<br>
+									Building | Learning | Growing</p>
+								<button type="button" style="border:#FFFFFF">
+									<a href="images/resume/ThiTran_Resume.pdf" style="all:unset" download>My Resume</a>
+								</button>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">About</a></li>
+								<li><a href="#intro">Education</a></li>
+								<li><a href="#work">Experience</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Education</h2>
+								<span class="image main"><img src="images/OU.jpeg" alt="" height="350"/></span>
+								<h3>University of Oklahoma</h3> 
+									<ul style="list-style-type: square; margin-left:10px;">
+										<li>B.S. Computer Science</li>
+										<li>Expected Graduate: 05/2024</li>
+										<li>President’s Honor Roll List in 2021, 2022</li>
+									</ul>
+								<h3>Oklahoma City Community College</h3>
+									<ul style="list-style-type: square; margin-left:10px;">
+										<li>A.S. Computer Science</li>
+										<li>President’s Honor Roll List in 2020, 2021</li>
+									</ul>
+								<h3>Pham Ngoc Thach University of Medicine</h3>
+									<ul style="list-style-type: square; margin-left:10px;">
+										<li>Doctor of Medicine</li>
+									</ul>
+								<div class="d-flex justify-content-between">
+									<div class="p-2">
+										<a href="index.html#about" style="all:unset" > 
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+												<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+											</svg>
+										</a>
+									</div>
+									<div class="p-2">
+										<a href="index.html#work" style="all:unset;"> 
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+												<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+											</svg>	
+										</a>
+									</div>
+								</div>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work</h2>
+								<h3 style="margin-bottom: 0;">Skills</h3> 
+								<ul style="list-style-type: square; margin-left:10px;">
+									<li><strong>Languages: </strong>Python, Java, C++, HTML, CSS, JavaScript, jQuery</li>
+									<li><strong>Technical: </strong> Django, Flask, React, Bootstrap, GitHub, Visual Studio Code, Docker, SQL</li>
+								</ul>
+								<h3 style="margin-bottom: 0;">Center for Earth Observation and Modeling (CEOM)</h3> 
+								<span><i>Web Developer Intern</i></span>
+								<span style="margin-left:290px;">09/2022 - Present</span>
+									<ul style="list-style-type: square; margin-left:10px;">
+										<li>Working with a team to extend existing features and maintain the website serving 5000+ users</li>
+										<li>Implemented optimizations that reduced page load time by 50%, improving the user experience and increasing user engagement</li>
+										<li>Designed and implemented multiple searching, downloading, and uploading data features to enhance user satisfaction, resulting in a 90% increase in user convenience</li>
+										<li>Developing a Global Geo-Referenced Field Photo Library, allowing users to easily share, visualize, and analyze geo-referenced photos from various locations using Map API, JavaScript, Python, and Django</li>
+									</ul>
+								<h3 style="margin-bottom: 0;">OU - Freshman Engineering Project Experience</h3>
+								<span><i>Teaching Assistant</i></span>
+								<span style="margin-left:300px;">09/2022 - 12/2022</span>
+									<ul style="list-style-type: square; margin-left:10px;">
+										<li>Assisted the professor with creating and delivering materials in engineering and computer science field</li>
+										<li>Provided a guidance to students, resulting in an 80% increase in students achieving a grade of B or above</li>
+										<li>Facilitated hands-on learning opportunities to enhance students' understanding of the engineering design process and computer science principles</li>
+									</ul>
+								<h3 style="margin-bottom: 0;">Paycom Summer Engagement Program</h3>
+								<span><i>Participant</i></span>
+								<span style="margin-left:350px;">08/2022 - 09/2022</span>
+									<ul style="list-style-type: square; margin-left:10px;">
+										<li>1 of 150 selected students participated in the training program</li>
+										<li>Practiced and obtained a solid understanding of software development by using React, PHP, JavaScript, SQL</li>
+									</ul>
+								<div class="d-flex justify-content-between">
+									<div class="p-2">
+										<a href="index.html#intro" style="all:unset" > 
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+												<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+											</svg>
+										</a>
+									</div>
+									<div class="p-2">
+										<a href="index.html#contact" style="all:unset;"> 
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+												<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+											</svg>	
+										</a>
+									</div>
+								</div>
+							</article>
+
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/ava.jpg" alt="" /></span>
+								<ul style="list-style-type: square;">
+									<li>She/her/hers</li>
+									<li>A senior at University of Oklahoma</li>
+									<li>Major: Computer Science</li>
+									<li>Interest: Full Stack Developmet, AI/ML in healthcare</li>
+									<li>Also be: 
+										<ul style="margin-left: 30px; margin-bottom: 0;">
+											<li>National Certified Pharmacy Technician (PRN)</li>
+											<li>Vietname-English Medical Interpreter (Freelance)</li> 
+										</ul>
+									</li>
+									<li>Located: Oklahoma City, OK </li>	
+									<li>Language: Vietnamese (native), English  </li>
+									<li>My resume:
+										<span style="margin-left: 10px;"></span>
+										<a href="images/resume/ThiTran_Resume.pdf" target="_blank" style="all: unset" download> 
+											<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+												<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+												<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+											 </svg>
+										</a>
+									</li>	 
+								</ul>
+								<div class="d-flex justify-content-between">
+									<div class="p-2"></div>
+									<div class="p-2">
+										<a href="index.html#intro" style="all:unset;"> 
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+												<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+											</svg>	
+										</a>
+									</div>
+								</div>
+							
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<p>Thanks for checking out my portfolio!
+								<br>As a computer science student, I'm passionate about creating innovative solutions 
+									that solve real-world problems. If you're interested in learning more about my work or have a project you'd like to collaborate on, I'd love to hear from you.
+								</p>
+								<ul class="icons">
+									Let's connect:<span style="margin-left: 10px;"></span>
+									<li><a href="https://www.linkedin.com/in/ttranng/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://github.com/ttranng2601" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.instagram.com/ttranng/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="mailto:ttranng2601@@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<div class="d-flex justify-content-between">
+									<div class="p-2">
+										<a href="index.html#work" style="all:unset" > 
+											<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+												<path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+											</svg>
+										</a>
+									</div>
+									<div class="p-2"></div>
+								</div>
+							</article>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons" style="margin-bottom:0">
+							<li><a href="https://www.linkedin.com/in/ttranng/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://github.com/ttranng2601" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.instagram.com/ttranng/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="mailto:ttranng2601@@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<span style="font-size:11px;">Hefner Lake |  OKC, OK | taken by me</span>
+					</footer>
+
 			</div>
-			<h1>Hello, I'm Trang</h1>
-			<p>Computer Science Student</p>
-			<ul class="icons">
-				<li class="icon"><a class="icon instagram" href="https://www.instagram.com/ttranng/" title="Instagram">
-			        <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="40" height="40">
-			          <path d="M256 109.3c47.8 0 53.4 0.2 72.3 1 17.4 0.8 26.9 3.7 33.2 6.2 8.4 3.2 14.3 7.1 20.6 13.4 6.3 6.3 10.1 12.2 13.4 20.6 2.5 6.3 5.4 15.8 6.2 33.2 0.9 18.9 1 24.5 1 72.3s-0.2 53.4-1 72.3c-0.8 17.4-3.7 26.9-6.2 33.2 -3.2 8.4-7.1 14.3-13.4 20.6 -6.3 6.3-12.2 10.1-20.6 13.4 -6.3 2.5-15.8 5.4-33.2 6.2 -18.9 0.9-24.5 1-72.3 1s-53.4-0.2-72.3-1c-17.4-0.8-26.9-3.7-33.2-6.2 -8.4-3.2-14.3-7.1-20.6-13.4 -6.3-6.3-10.1-12.2-13.4-20.6 -2.5-6.3-5.4-15.8-6.2-33.2 -0.9-18.9-1-24.5-1-72.3s0.2-53.4 1-72.3c0.8-17.4 3.7-26.9 6.2-33.2 3.2-8.4 7.1-14.3 13.4-20.6 6.3-6.3 12.2-10.1 20.6-13.4 6.3-2.5 15.8-5.4 33.2-6.2C202.6 109.5 208.2 109.3 256 109.3M256 77.1c-48.6 0-54.7 0.2-73.8 1.1 -19 0.9-32.1 3.9-43.4 8.3 -11.8 4.6-21.7 10.7-31.7 20.6 -9.9 9.9-16.1 19.9-20.6 31.7 -4.4 11.4-7.4 24.4-8.3 43.4 -0.9 19.1-1.1 25.2-1.1 73.8 0 48.6 0.2 54.7 1.1 73.8 0.9 19 3.9 32.1 8.3 43.4 4.6 11.8 10.7 21.7 20.6 31.7 9.9 9.9 19.9 16.1 31.7 20.6 11.4 4.4 24.4 7.4 43.4 8.3 19.1 0.9 25.2 1.1 73.8 1.1s54.7-0.2 73.8-1.1c19-0.9 32.1-3.9 43.4-8.3 11.8-4.6 21.7-10.7 31.7-20.6 9.9-9.9 16.1-19.9 20.6-31.7 4.4-11.4 7.4-24.4 8.3-43.4 0.9-19.1 1.1-25.2 1.1-73.8s-0.2-54.7-1.1-73.8c-0.9-19-3.9-32.1-8.3-43.4 -4.6-11.8-10.7-21.7-20.6-31.7 -9.9-9.9-19.9-16.1-31.7-20.6 -11.4-4.4-24.4-7.4-43.4-8.3C310.7 77.3 304.6 77.1 256 77.1L256 77.1z"></path>
-			          <path d="M256 164.1c-50.7 0-91.9 41.1-91.9 91.9s41.1 91.9 91.9 91.9 91.9-41.1 91.9-91.9S306.7 164.1 256 164.1zM256 315.6c-32.9 0-59.6-26.7-59.6-59.6s26.7-59.6 59.6-59.6 59.6 26.7 59.6 59.6S288.9 315.6 256 315.6z"></path>
-			          <circle cx="351.5" cy="160.5" r="21.5"></circle>
-			        </svg>
-		    	</a></li>
-		    	<li class="icon"><a class="icon github" href="https://github.com/ttranng2601" title="GitHub">
-			        <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="40" height="40">
-			          <path d="M256 70.7c-102.6 0-185.9 83.2-185.9 185.9 0 82.1 53.3 151.8 127.1 176.4 9.3 1.7 12.3-4 12.3-8.9V389.4c-51.7 11.3-62.5-21.9-62.5-21.9 -8.4-21.5-20.6-27.2-20.6-27.2 -16.9-11.5 1.3-11.3 1.3-11.3 18.7 1.3 28.5 19.2 28.5 19.2 16.6 28.4 43.5 20.2 54.1 15.4 1.7-12 6.5-20.2 11.8-24.9 -41.3-4.7-84.7-20.6-84.7-91.9 0-20.3 7.3-36.9 19.2-49.9 -1.9-4.7-8.3-23.6 1.8-49.2 0 0 15.6-5 51.1 19.1 14.8-4.1 30.7-6.2 46.5-6.3 15.8 0.1 31.7 2.1 46.6 6.3 35.5-24 51.1-19.1 51.1-19.1 10.1 25.6 3.8 44.5 1.8 49.2 11.9 13 19.1 29.6 19.1 49.9 0 71.4-43.5 87.1-84.9 91.7 6.7 5.8 12.8 17.1 12.8 34.4 0 24.9 0 44.9 0 51 0 4.9 3 10.7 12.4 8.9 73.8-24.6 127-94.3 127-176.4C441.9 153.9 358.6 70.7 256 70.7z"></path>
-			        </svg>
-		    	</a></li>
-		    	<li class="icon"><a class="icon linkedin" href="https://www.linkedin.com/in/ttranng/" title="LinkedIn">
-			        <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="40" height="40">
-			          <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path>
-			        </svg>
-		   		</a></li>
-	    	</ul>
-	    </div>
-	</div>
-	<footer>CopyRight © 2022 Thi Tran</footer>
-</body>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
