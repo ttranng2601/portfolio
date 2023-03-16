@@ -1,2 +1,3 @@
 # Hello!
-https://ttranng2601.github.io/porfolio/
+Check my portfolio here:
+https://ttranng2601.github.io/portfolio/
